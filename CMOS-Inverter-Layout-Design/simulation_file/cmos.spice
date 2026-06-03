@@ -1,0 +1,17 @@
+* CMOS Inverter
+
+.option scale=1u
+
+M1 y a vdd vdd pfet w=7 l=3
+M2 y a gnd gnd nfet w=9 l=3
+
+VDD vdd 0 DC 5
+
+VA a 0 PULSE(0 5 0 1n 1n 10n 20n)
+
+.model nfet nmos level=1
+.model pfet pmos level=1
+
+.tran 1n 100n
+
+.end
