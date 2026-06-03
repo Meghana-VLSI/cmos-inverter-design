@@ -49,12 +49,6 @@ This project includes:
 
 ---
 
-## 📈 Waveform Observation
-- Input: Pulse signal (0V to 5V)
-- Output: Inverted signal
-- Result: Correct CMOS inverter operation verified
-
----
 
 ## 🧠 Key Learnings
 - VLSI physical design flow understanding  
@@ -65,15 +59,32 @@ This project includes:
 
 ---
 
-## 🚀 Future Scope
-- NAND, NOR, XOR gate design using CMOS  
-- Full adder design  
-- Layout Versus Schematic (LVS) verification  
-- Parasitic extraction analysis  
-- Low power VLSI design techniques  
+## 📈 Advantages
+- Low static power consumption  
+- High switching speed  
+- High noise immunity  
+- Simple structure  
+- Scalable design for complex circuits  
 
 ---
 
+## 🔧 Applications
+- Digital logic gates (NAND, NOR, XOR)  
+- Microprocessors and microcontrollers  
+- Memory design (SRAM, DRAM)  
+- VLSI digital systems  
+- Signal processing circuits  
+
+---
+
+## 🚀 Future Scope
+- Design of complex logic gates  
+- Full adder and ALU design  
+- Layout Versus Schematic (LVS) verification  
+- Parasitic extraction analysis  
+- Low power CMOS design techniques  
+
+---
 ## 📚 References
 - Magic VLSI Tool Documentation  
 - NGSpice User Manual  
